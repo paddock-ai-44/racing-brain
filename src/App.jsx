@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from "react";
 
 // ─── CONFIG ───────────────────────────────────────────────────
 const BASE_ID  = "appd4lJ5ZCraN4gUk";
-const API_KEY = import.meta.env.VITE_AIRTABLE_KEY;
+const API_KEY = import.meta.env.VITE_AIRTABLE_KEY; console.log("API_KEY loaded:", API_KEY ? "YES (key present)" : "NO (undefined)");
 const TABLES   = {
   horses:   "tblTo3Zsa0w8HSvZs",
   trainers: "tblVOaFVaqCgs2NzT",
